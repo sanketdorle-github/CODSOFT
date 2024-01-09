@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 22px;
+    background: url(Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.firstHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to right , #ec8c1eb7   , #df29a2);
+    height: 80px;
+}
+
+.socialLinks {}
+
+.socialLinks img {
+    height: 34px;
+    width: 36px;
+    filter: invert(1);
+    margin: 4px;
+}
+
+.socialGmail img {
+    height: 24px;
+    width: 25px;
+    filter: invert(1);
+    margin: 0px 5px;
+
+}
+
+.socialGmail {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.socialGmail span {
+    display: flex;
+    align-items: center;
+    margin: 0px 12px;
+}
+
+.socialGmail span a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialBut button {
+    padding: 6px 15px;
+    border: 3px solid white;
+    background-color:#df29a2;
+    color: white;
+    border-radius: 23px;
+    font-size: 22px;
+}
+
+/*  navigation bar  */
+.navMain {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+}
+
+.navLogo h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5em;
+    cursor: pointer;
+
+}
+
+.navMenu ul {
+    list-style: none;
+    display: flex;
+}
+
+.navMenu ul li {
+    font-size: 30px;
+    padding: 3px 19px;
+    margin: 10px 48px;
+    font-weight: 900;
+}
+.navMenu ul li :hover{
+    color: gray;
+}
+.navMenu li a {
+    text-decoration: none;
+}
+
+.navSearch {
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 350px;
+}
+
+.elementContainer {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search {
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    color: #424242;
+    font-weight: 500;
+
+}
+
+.search:focus {
+    outline: none;
+
+}
+
+.material-icons {
+    font-size: 24;
+    color: #2980b9;
+}
+
+/*       first section      */
+.firstMain {
+    width: 100%;
+    height: 100%;
+}
+
+.fistTitle {
+
+    width: 40%;
+    height: 400px;
+    margin: 10em 50em;
+    color: white;
+
+
+}
+
+.fistTitle h1 {
+    font-size: 3em;
+    text-shadow: 6px -3px 10px black;
+
+}
+
+.fistTitle h3 {
+    font-size: 1.3em;
+    text-shadow: 3px 2px 7px black;
+}
+
+.secondMain {
+    position: relative;
+    top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+}
+
+.secondMain img {
+    height: 75px;
+    width: 75px;
+}
+
+.secondMain .design {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 25px;
+
+}
+
+/*    Third section   */
+.thirdMain {
+
+    position: relative;
+    top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.info h2,
+.firstHead h2 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 20px 15px;
+}
+
+
+.btn {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 29px;
+    padding: 12px 32px;
+    margin: 12px 2px;
+}
+
+.fourthMain {
+    position: relative;
+    top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.fourthHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 10px;
+}
+.fourthHead h2 {
+    font-weight: bold;
+    font-size: 2em;
+
+ }
+
+.parentEstimator {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.estimator {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 20%;
+    border: 1px solid #424242;
+    border-radius: 23px;
+    margin: 10px 30px;
+    box-shadow: 4px 4px 4px 4px #424242 ;
+}
+
+.icons {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.icons img {
+   margin: 12px 12px;
+    height: 100px;
+    width: 100px; 
+  
+
+}
+
+.estimatorContent {
+    margin: 10px 10px;
+    height: 150PX;
+    
+}
+.estimatorContent h5{
+    font-size: 1.5em;
+
+}
+#estBtn{
+    margin: 30px 85px;
+  
+}
+
+
+
+
+/*     Utility classes     */
+.para  {
+    font-size: 1.2em;
+    margin: 3px 15px;
+    text-align: center;
+}
