@@ -1,0 +1,190 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(22, 22, 62);
+    background-color: #3e2d6f;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+.left {
+    font-size: 2.0rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 20px;
+
+}
+
+nav ul li :hover {
+    background-color: #ffffff;
+    color: rgb(22, 22, 62);
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+
+.firstSection>div {
+    width: 30%;
+
+    margin: 40px 2px;
+
+}
+
+.leftSection {
+    padding: 70px 2px;
+    font-size: 30px;
+}
+
+.leftSection>span {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.rightSection img {
+
+    width: 100%;
+
+}
+
+main>hr {
+    color: white;
+    width: 90%;
+    margin: 0px 76px;
+
+
+}
+
+.secondSection {
+    max-width: 80vw;
+    height: 90vh;
+    margin: 35px 134px;
+}
+
+.secondSection>span h1 {
+    padding: 6px 250px;
+}
+
+/*      about Section           */
+.about-col-1 img {
+    height: 200px;
+    width: 250px;
+}
+
+.about-col-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.row {
+    padding: 0px 50px;
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*      projects Section.       */
+.box {
+    display: flex;
+
+    background-color: #ffffff;
+    height: 2px;
+    width: 80%;
+    margin: 0px 134px;
+}
+
+.ver-lines {
+    
+    height: 84px;
+    width: 2px;
+    background: white;
+    margin: 0px 161px;
+}
+
+.secProject {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.projTitle h1{
+    padding: 0px 23px;
+}
+.vertical-title{
+    position: relative;
+    top: 84px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-color: orchid;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 96px;
+    width: 250px;
+    
+}
+
+footer{
+  background-color: #41326d;
+  display: flex;
+  justify-content: center;
+}
+.align-center{
+    position: relative;
+    font-size: 12px;
+  
+
+}
+/* Utility classes */
+.purple {
+    color: #d038d0;
+}
+
+.gray-text {
+    color: orchid;
+    font-size: 18px;
+}
+.titles{
+    font: 35px;
+}
